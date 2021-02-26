@@ -1,0 +1,50 @@
+*   {
+    box-sizing: border-box; /* the whole box is 400 px incl. padding, margin, border*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    
+    }
+    
+h1  {
+        color: blue;
+        font-weight: 800; /*range: 100 - bold*/
+        font-size: 3em; /*300 % increase normal text */
+        text-align: center;
+        text-transform: capitalize;
+    }
+h3  {
+        color: blueviolet;
+        font-style: italic;
+        font-size: 1.5em;
+        text-align: left;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+.box {
+    background-color: honeydew;
+    padding: 3px; /* top right bottom left - with only one specify all (instead of 10px 10px 10px 10px)*/
+    border: 2px solid black;
+    /*margin: 3px;*/
+    width: 50%;
+    float: left; 
+    
+}
+
+div {
+    background-color: aqua;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#education {
+    clear: both;
+}
+#projects {
+}
+    
